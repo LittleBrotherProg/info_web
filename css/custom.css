@@ -1,0 +1,77 @@
+.box{
+  border: 4px solid black;
+}
+.Views{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 6px solid brown;
+  border-radius: 50px;
+
+}
+.box h1 {
+  padding-top: 10px;
+  text-align:  center;
+}
+
+.box p {
+  font-size: 20px;
+  padding: 0 50px 0 50px;
+
+}
+
+.box .Term{
+  display: flex;
+  justify-content: center;
+
+}
+
+.box .ViewsTags{
+  padding: 0 50px 0 50px;
+  font-size: 20px;
+
+
+}
+
+.box .ViewsTags ul{
+  padding-inline-start: 0px;
+  border: 6px solid brown;
+  border-radius: 50px;
+}
+
+.box .ViewsTags ol{
+  padding-inline-start: 0px;
+  border: 6px solid brown;
+  border-radius: 50px;
+}
+
+
+.box div ul .ViewsTags{
+  padding-inline-start: 0px;
+  border: 6px solid brown;
+  border-radius: 50px;
+}
+
+.box .ViewsTags li{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+
+
+}
+
+
+.box .ViewsTags ul li{
+  display: flex;
+  justify-content: center;
+
+
+}
+.box .ViewsTags ul ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 0px;
+
+
+}
